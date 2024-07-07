@@ -19,7 +19,7 @@ plt.scatter(X,y,s=5,c="green")
 plt.title("Scatter plot on original data")
 plt.xlabel("X")
 plt.ylabel("Y")
-plt.savefig('1.png')
+plt.savefig('py_orig.png')
 plt.show()
 
 
@@ -54,5 +54,5 @@ plt.legend(["Actual data", "Predicted data","Linear Regression"], loc="lower rig
 plt.title("Scatter plot and Linear Regression")
 plt.xlabel("X")
 plt.ylabel("Y")
-plt.savefig('2.png')
+plt.savefig('py_lm.png')
 plt.show()
